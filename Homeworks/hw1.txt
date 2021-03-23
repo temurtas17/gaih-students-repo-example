@@ -1,0 +1,22 @@
+1-)
+Machine learning is a sub-branch of artificial intelligence and enables systems to learn without explicit programming.
+
+2-)
+In a supervised learning model, the algorithm learns on a labeled dataset, providing an answer key that the algorithm can use to evaluate its accuracy on training data. 
+An unsupervised model, in contrast, provides unlabeled data that the algorithm tries to make sense of by extracting features and patterns on its own.
+Supervised algorithm example --> image classification, machine translation, stock prediction
+Unsupervised algorithm example --> K-mean, GMMs, HMMs
+
+3-)
+Validation Set: The sample of data used to provide an unbiased evaluation of a model fit on the training dataset while tuning model hyperparameters. The evaluation 
+becomes more biased as skill on the validation dataset is incorporated into the model configuration.
+Test Set: The sample of data used to provide an unbiased evaluation of a final model fit on the training dataset.
+
+4-) 
+1. Acquire the dataset
+2. Import all the crucial libraries
+3. Import the dataset
+4. Identifying and handling the missing values
+5. Encoding the categorical data
+6. Splitting the dataset
+7. Feature scaling
